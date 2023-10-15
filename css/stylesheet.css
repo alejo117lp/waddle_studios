@@ -1,106 +1,5 @@
-body{
-    margin: 0;
-    background: #051f39;
-    font-family: 'Teen-Regular';
-    
-}
-
-header{
-    position: relative;
-    display: grid;
-    grid-template-columns: 2fr 3fr;
-    width: 100%;
-    background: #ff8e80;
-}
-
-footer{
-    position: absolute;
-    padding: 15px;
-    width: 100%;
-    left: 0;
-    bottom: 0;
-    background-color: rgb(42, 42, 42);
-}
-
-.principal-container{
-    position: relative;
-    margin: 60px;
-}
-
-.logo-container{
-    margin-left: 50px;
-}
-
-.logo{
-    position: relative;
-    max-width: 235px;
-    max-height: 90px;
-    min-width: 85px;
-    min-height: 40px;
-}
-
-.header-menu{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.header-menu>a{
-    color: rgb(236, 236, 236);
-    text-decoration: none;
-    font-size: 25px;
-    font-family: 'Teen-Bold';
-}
-
-.header-menu>a:hover{
-    color: #c53a9d;
-}
-
-.principal-announcement{
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    grid-gap: 35px;
-}
-
-.principal-announcement> div{
-    color: white;
-    font-size: 25px;
-    line-height: 2em;
-}
-
-.picture-settings{
-    position: relative;
-    /*height: 425px;*/
-    height: auto;
-    /*width: 300px;*/
-    width: 100%;
-}
-
-.description-announcement{
-    grid-row: 1;
-    grid-column: 2;
-}
-
-.button-demo > button{
-    width: 100%;
-    background: #c53a9d;
-    color: white;
-    border-radius: 5px;
-    border: 0;
-    font-size: 25px;
-    font-family: 'Teen-Bold';
-
-}
-
-.button-demo > button:hover{
-    background-color: #ff8e80;
-    color: black;
-}
-
-/* FONTS */
-
 @font-face {
-    font-family: 'Teen-Bold';
+    font-family: 'Teen';
     src: url('Teen-Bold.eot');
     src: url('Teen-Bold.eot?#iefix') format('embedded-opentype'),
         url('Teen-Bold.woff2') format('woff2'),
@@ -112,7 +11,7 @@ footer{
 }
 
 @font-face {
-    font-family: 'TeenLight-Regular';
+    font-family: 'Teen';
     src: url('TeenLight-Regular.eot');
     src: url('TeenLight-Regular.eot?#iefix') format('embedded-opentype'),
         url('TeenLight-Regular.woff2') format('woff2'),
@@ -124,7 +23,7 @@ footer{
 }
 
 @font-face {
-    font-family: 'Teen-Italic';
+    font-family: 'Teen';
     src: url('Teen-Italic.eot');
     src: url('Teen-Italic.eot?#iefix') format('embedded-opentype'),
         url('Teen-Italic.woff2') format('woff2'),
@@ -136,7 +35,7 @@ footer{
 }
 
 @font-face {
-    font-family: 'Teen-Regular';
+    font-family: 'Teen';
     src: url('Teen-Regular.eot');
     src: url('Teen-Regular.eot?#iefix') format('embedded-opentype'),
         url('Teen-Regular.woff2') format('woff2'),
@@ -148,7 +47,7 @@ footer{
 }
 
 @font-face {
-    font-family: 'TeenLight-Italic';
+    font-family: 'Teen';
     src: url('TeenLight-Italic.eot');
     src: url('TeenLight-Italic.eot?#iefix') format('embedded-opentype'),
         url('TeenLight-Italic.woff2') format('woff2'),
@@ -158,3 +57,4 @@ footer{
     font-style: italic;
     font-display: swap;
 }
+
